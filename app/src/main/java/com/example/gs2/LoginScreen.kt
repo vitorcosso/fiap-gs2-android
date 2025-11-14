@@ -7,7 +7,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-
+// RM 98231 Vitor Cosso
+// RM 550186 Thiago Scaciota
 @Composable
 fun LoginScreen(navController: NavController) {
 

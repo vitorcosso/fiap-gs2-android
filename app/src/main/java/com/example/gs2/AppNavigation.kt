@@ -6,7 +6,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.compose.composable
 import com.example.gs2.ui.*
-
+// RM 98231 Vitor Cosso
+// RM 550186 Thiago Scaciota
 @Composable
 fun AppNavigation() {
     val navController = rememberNavController()

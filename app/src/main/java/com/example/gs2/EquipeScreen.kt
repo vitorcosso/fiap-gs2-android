@@ -21,10 +21,9 @@ fun EquipeScreen(navController: NavController) {
 
         Spacer(Modifier.height(10.dp))
 
-        Text("- Thiago Scaciota")  // aqui coloque os nomes pedidas pelo professor
-        Text("- Nome 2")
-        Text("- Nome 3")
-        Text("- Nome 4")
+        Text("RM 550186 - Thiago Scaciota")
+        Text("RM 98231 - Vitor Cosso")
+
 
         Spacer(Modifier.height(30.dp))
 

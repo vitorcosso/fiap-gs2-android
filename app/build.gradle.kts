@@ -28,14 +28,21 @@ android {
         }
     }
 
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
-    buildFeatures {
-        compose = true
+
+    kotlin {
+        jvmToolchain(17)
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.3"
+
+    composeCompiler {
+        enableStrongSkippingMode = true
     }
 }
 
